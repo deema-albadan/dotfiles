@@ -20,9 +20,6 @@ class TestSolution(unittest.TestCase):
     
     def test_lla(self):
 
-        os.system("rm $HOME/.bashrc")
-        os.system("source bashrc")
-        os.system("lla > lla.txt")
 
         with open('lla.txt', 'r') as f:
 
